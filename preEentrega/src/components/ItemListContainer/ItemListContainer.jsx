@@ -10,7 +10,7 @@ export const ItemListContainer = ({ greeting }) => {  // 2 tipo contenedor - de 
         .catch(err => console.log(err))
     }, [])
 
-    //    un [<li>1</li>, <li>2</li>, <li>3</li>, ....] <- [1,2,3,4].map(num => <li>{num}</li>) 
+
 
     return (
         
